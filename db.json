@@ -22,7 +22,7 @@
   "getAllCasesResponse":{
     "sfdcCases":[
       {
-        "subject":"Refrigerator door was open for too long",
+        "subject":"Refrigerator door was open for too long some very long subject",
         "caseId":"001190",
         "status":"OPEN",
         "timeOpened":"2018-06-11",
