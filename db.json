@@ -1,22 +1,51 @@
 {
   "GetAllDevicesResponse":{
-  "devices": [
-    {
-      "deviceId":"9c9a8ae7-1d0f-45cc-88a3-e8776fe0078e",
-      "deviceName":"Fridge-001",
-      "deviceType":"REFRIGERATOR"
-    },
-    {
-      "deviceId":"9c9a8ae7-1d0f-45cc-88a3-e8776fe0078f",
-      "deviceName":"Fridge-002",
-      "deviceType":"REFRIGERATOR"
-    },
-    {
-      "deviceId":"9c9a8ae7-1d0f-45cc-88a3-e8776fe0078g",
-      "deviceName":"Fridge-003",
-      "deviceType":"REFRIGERATOR"
-    }
-  ]
- }
+    "devices": [
+      {
+        "deviceId":"9c9a8ae7-1d0f-45cc-88a3-e8776fe0078e",
+        "deviceName":"Fridge-001",
+        "deviceType":"REFRIGERATOR"
+      },
+      {
+        "deviceId":"9c9a8ae7-1d0f-45cc-88a3-e8776fe0078f",
+        "deviceName":"Fridge-002",
+        "deviceType":"REFRIGERATOR"
+      },
+      {
+        "deviceId":"9c9a8ae7-1d0f-45cc-88a3-e8776fe0078g",
+        "deviceName":"Fridge-003",
+        "deviceType":"REFRIGERATOR"
+      }
+    ]
+  },
+  
+  "getAllCasesResponse":{
+    "sfdcCases":[
+      {
+        "subject":"Refrigerator door was open for too long",
+        "caseId":"001190",
+        "status":"OPEN",
+        "timeOpened":"2018-06-11",
+        "owner":"Arun Patra",
+        "priority":1
+      },
+      {
+        "subject":"Refrigerator door was open for too long",
+        "caseId":"001191",
+        "status":"OPEN",
+        "timeOpened":"2018-06-11",
+        "owner":"Arun Patra",
+        "priority":1
+      },
+      {
+        "subject":"Refrigerator temperature is too high",
+        "caseId":"001191",
+        "status":"OPEN",
+        "timeOpened":"2018-06-11",
+        "owner":"Arun Patra",
+        "priority":1
+      }
+    ] 
+  }
 }
   
