@@ -27,7 +27,7 @@
         "status":"OPEN",
         "timeOpened":"2018-06-11",
         "owner":"Arun Patra",
-        "priority":1
+        "priority":"HIGH"
       },
       {
         "subject":"Refrigerator door was open for too long",
@@ -35,7 +35,7 @@
         "status":"OPEN",
         "timeOpened":"2018-06-11",
         "owner":"Arun Patra",
-        "priority":1
+        "priority":"MEDIUM"
       },
       {
         "subject":"Refrigerator temperature is too high",
@@ -43,7 +43,7 @@
         "status":"OPEN",
         "timeOpened":"2018-06-11",
         "owner":"Arun Patra",
-        "priority":1
+        "priority":"LOW"
       }
     ] 
   }
